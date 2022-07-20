@@ -1,0 +1,14 @@
+body{
+    margin: auto !important;
+    max-width: 800px;
+
+}
+
+div{
+    margin: 10px;
+}
+
+textarea{
+    min-height: 80px!important;
+    max-height: 150px;
+}

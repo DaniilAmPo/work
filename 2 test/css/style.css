@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,100&display=swap');
+body{
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    max-width: 2000px;
+    margin:auto;
+}
+.menu{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1;
+}
+.parent-menu ul{
+    display: none;
+    background-color: rgba(14, 2, 35, 0.8);
+    position: absolute;
+    top: 50%;
+
+}
+li{
+    list-style-type: none;
+}
+.iconcollapse{
+    float: right;
+    display: none;
+    margin-left: 5px;
+}
+.iconexpand{
+    float: right;
+    margin-left: 5px;
+}
+
+
+.parent-menu li:hover ul{ display: block; }
+.parent-menu li:hover .iconexpand{ display: none;}
+.parent-menu li:hover .iconcollapse{ display: block;}
+
+.sub-menu-caption{
+    margin-right: 25px;
+    margin-top: 5px;
+}
+.parent-menu, .parent-menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color: #f2b11a;
+    margin-left: -4px;
+}
+.parent-menu {
+    height: 50px;
+    background-color: rgba(14, 2, 35, 0.8);
+    min-width: 470px;
+    padding-left: 40px;
+    padding-top: 25px;
+}
+.parent-menu li {
+    float: left;
+    position: relative;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+.parent-menu li a {
+    display: block;
+    padding: 6px;
+    width: 215px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+.right{
+
+    position: absolute !important;
+    right: 20px;
+
+}
+
+.parent-menu ul li { float: none; }
+.parent-menu a:hover { color: #f2b11a; }
+
+
+.btn{
+    width: 72px!important;
+
+    background: rgba(242, 213, 26, 0.8);
+    border: 1px solid;
+    border-radius: 37px;
+    color: white!important;
+    padding-left: 20px !important;
+    padding-right: 0px !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+}
+
+.btn:hover { background: rgba(242, 213, 26, 1); }
+
+.header{
+    background-image: url(../images/topimage.jpeg);
+    background-size: cover;
+    height: 1000px;
+    background-blend-mode: multiply;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.social{
+    top: 100px;
+    width: 230px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+.social_img{
+    width: 20px;
+    opacity: 0.6;
+}
+.social_img:hover { opacity: 1; }
+
+.social_text{
+    color: rgba(255, 255, 255, 0.8);
+    float: left;
+    margin-right: 10px;
+}
+.social-btns{
+
+    margin-left: 156px;
+}
+
+.title{
+    padding-top: 75vh;
+    margin-left: 29%;
+    color: white;
+    font-size: 3rem;
+    margin-bottom:-30px;
+}
+
+.meta{
+    line-height:50px;
+}
+.metaTime{
+    width: 150px;
+    height: 50px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    text-align: center;
+    float: left;
+    margin-right: 10px;
+}
+.metaGenre{
+    width: 200px;
+    height: 50px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    text-align: center;
+    float: left;
+    margin-right: 10px;
+}
+.metaFrom{
+    width: 200px;
+    height: 50px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    text-align: center;
+    float: left;
+    margin-right: 10px;
+}
+.circle{
+    width: 55px;
+    height: 50px;
+    background: rgba(242, 213, 26, 0.8);
+    border-radius: 60px;
+    float: left;
+}
+.text-center{
+    text-align: center;
+    color: black;
+    font-size: 42px;
+}
+.section-summary{
+    padding-top: 30px;
+    padding-left: 125px;
+    padding-right: 125px;
+    color: #848484;
+    font-size: 18px;
+    line-height: 35px;
+}
+.section-cast{
+    background-image: url(../images/car.jpg);
+    background-size: cover;
+    height: 100vh;
+    min-height: 680px;
+    background-blend-mode: multiply;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: rgba(14, 2, 35, 0.8);
+}
+
+.text_cast{
+    color: white;
+    padding-top: 65px;
+}
+
+.cast_li{
+    width: 16%;
+    float: left;
+    margin-left: 4%
+
+
+}
+a{
+    text-decoration: none;
+}
+
+.cast-head{
+    position: relative;
+    top: -26vw;
+    left: 15px;
+    width: 36px;
+    height: 24px;
+    background: rgba(197, 175, 5, 0.8);
+    padding-left: 10px;
+    color: white;
+}
+.Director-head{
+    position: relative;
+    top: -26vw;
+    left: 15px;
+    width: 60px;
+    height: 24px;
+    background: rgba(197, 175, 5, 0.8);
+    padding-left: 10px;
+    color: white;
+}
+
+img{
+    width: 100%;
+}
+
+.cast{
+    padding: 0;
+    width: 96%;
+    padding-top: 6%;
+
+}
+
+.cast-text{
+    width: 100%;
+    height: 70px;
+    background: rgba(255, 255, 255, 0.8);
+    color: rgba(42, 42, 42, 0.8);
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    position: relative;
+    top: -114px;
+    font-size: 18px;
+}
+
+
+.cast :hover .cast-text{ background: rgba(242, 213, 26);}
+
+h5{
+    padding: 0px;
+    margin: 0px;
+}
+
+.small_text{
+    color: #848484;
+    font-size: 14px;
+}
+
+.section-tickets{
+    background-image: url(../images/cinema.png);
+    background-size: cover;
+    height: 300px;
+    background-blend-mode: multiply;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: rgba(14, 2, 35, 0.50);
+}
+
+.ticket{
+    color: white;
+    margin-top: 0px;
+    padding-top: 80px;
+    font-size: 24px;
+}
+.btn-ticket{
+    background: rgba(242, 213, 26, 0.8);
+    border: 1px solid;
+    border-radius: 37px;
+    color: white;
+    padding: 10px 25px;
+    font-size: 20px;
+}
+.btn-ticket:hover {background: rgba(242, 213, 26);}
+
+
+.section-footer{
+
+}
+.ul-footer{
+    text-align: center;
+    padding-left: 30%;
+
+
+}
+
+.footer_li{
+    color: #888888;
+    border-right: 1px solid #b5b5b5;
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+.footer_li:hover {color: #1e1e1e;}
